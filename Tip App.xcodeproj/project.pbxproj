@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB1FC5C421CABB0400DE3169 /* icons8-coins-48.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1FC5C321CABB0400DE3169 /* icons8-coins-48.png */; };
 		FBA7A25E21C5C4DE00620AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7A25D21C5C4DE00620AFA /* AppDelegate.swift */; };
 		FBA7A26021C5C4DE00620AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA7A25F21C5C4DE00620AFA /* ViewController.swift */; };
 		FBA7A26321C5C4DE00620AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA7A26121C5C4DE00620AFA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB1FC5C321CABB0400DE3169 /* icons8-coins-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-coins-48.png"; sourceTree = SOURCE_ROOT; };
 		FBA7A25A21C5C4DE00620AFA /* Tip App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA7A25D21C5C4DE00620AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA7A25F21C5C4DE00620AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				FBA7A26421C5C4DF00620AFA /* Assets.xcassets */,
 				FBA7A26621C5C4DF00620AFA /* LaunchScreen.storyboard */,
 				FBA7A26921C5C4DF00620AFA /* Info.plist */,
+				FB1FC5C321CABB0400DE3169 /* icons8-coins-48.png */,
 			);
 			path = "Tip App";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1FC5C421CABB0400DE3169 /* icons8-coins-48.png in Resources */,
 				FBA7A26821C5C4DF00620AFA /* LaunchScreen.storyboard in Resources */,
 				FBA7A26521C5C4DF00620AFA /* Assets.xcassets in Resources */,
 				FBA7A26321C5C4DE00620AFA /* Main.storyboard in Resources */,
