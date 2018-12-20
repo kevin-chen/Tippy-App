@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/DmVPXwa"><a href="http://imgur.com/DmVPXwa">tippy-app</a></blockquote><script async src="http://s.imgur.com/min/embed.js" charset="utf-8"></script>
+![](tippy-app.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
