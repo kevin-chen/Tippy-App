@@ -35,6 +35,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Most challenging aspect was attempting to add constraints so that its not off-side, but ultimately it wasn't completed
 Future implementation would be to add a history and menu/settings options
+The app also has its own icon
 
 ## License
 
