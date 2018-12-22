@@ -23,6 +23,30 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.billField.becomeFirstResponder()
+        
+        let filename = "Test"
+        let DocumentDirUrl = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+        let fileURL = DocumentDirUrl.appendingPathComponent(filename).appendingPathExtension("txt")
+        
+        print("File Path: \(fileURL.path)")
+        
+        let writeString = "write this text to the file in Swift"
+        do{
+            try writeString.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)
+        } catch let error as NSError {
+            print("Failed to write to URL")
+            print(error)
+        }
+        
+        var readString = ""
+        do {
+            readString = try String(contentsOf: fileURL)
+        } catch let error as NSError {
+            print("Failed to read file")
+            print(error)
+        }
+        
+        print("Contents of the file \(readString)")
     }
     
     override func didReceiveMemoryWarning() {

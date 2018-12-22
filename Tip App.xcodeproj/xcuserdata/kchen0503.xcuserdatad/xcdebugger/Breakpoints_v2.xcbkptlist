@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tip App/ViewController.swift"
-            timestampString = "567009436.204591"
+            timestampString = "567036578.681035"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "calculateTip(_:)"
             landmarkType = "7">
          </BreakpointContent>
